@@ -23,13 +23,13 @@ def complex_curfew_checker(time)
       puts "Time to apparate!"
     end
   else
-    puts "Keep having fun!"  
+    puts "Keep having fun!"
   end
 end
 
 def deluxe_curfew_checker(time)
   # code goes here
-endz
+end
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
