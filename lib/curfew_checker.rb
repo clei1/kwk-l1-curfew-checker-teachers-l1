@@ -48,6 +48,6 @@ def platinum_curfew_checker(current_time, curfew_time)
       return "Time to apparate!"
     end
   else
-    return "You have #{curfew_time-currentt_time} hour(s) left to keep having fun!"
+    return "You have #{curfew_time-current_time} hour(s) left to keep having fun!"
   end
 end
