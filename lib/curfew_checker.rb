@@ -33,10 +33,10 @@ def deluxe_curfew_checker(time)
     if(time == 11)
       return "You're in trouble! Better get home quick!"
     else
-      puts "Time to apparate!"
+      return "Time to apparate!"
     end
   else
-    puts "You have #{11-time} hour(s) left to keep having fun!"
+    return "You have #{11-time} hour(s) left to keep having fun!"
   end
 end
 
@@ -44,9 +44,9 @@ def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
   if(time > 10)
     if(time == 11)
-      puts "You're in trouble! Better get back to Hogwarts quick!"
+      return "You're in trouble! Better get back to Hogwarts quick!"
     else
-      puts "Time to apparate!"
+      return "Time to apparate!"
     end
   else
     puts "You have #{11-time} hour(s) left to keep having fun!"
