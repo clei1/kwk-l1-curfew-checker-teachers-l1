@@ -22,6 +22,8 @@ def complex_curfew_checker(time)
     else
       puts "Time to apparate!"
     end
+  else
+    puts "Keep having fun!
   end
 end
 
